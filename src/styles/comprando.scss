@@ -1,0 +1,164 @@
+$azul: #017DC3;
+$amarillo: #FDBB2F;
+.blue-container{
+    display: flex;
+    flex-direction: row;
+    padding: 22px 20%;
+    width: 100%;
+    height: 200px;
+    background: #A7D8FF ;
+}
+.text-blue{
+    width: 100%;
+    text-align: center;
+    font-size: 22pt;
+    font-weight: 500;
+    margin: 40px 0;
+}
+.icon-medium{
+    width: 150px;
+    height: 150px;
+}
+.main-comprando-container{
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.p-text{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16pt;
+}
+.dropdown-text-container{
+    margin-right: 80px;
+}
+.calendar-info-container{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.advice-upload{
+    
+    display: flex;
+    flex-direction: row;
+}
+.icon-upload-container{
+    width: 160px;
+    margin: 50px 0;
+}
+.advice-upload-blue{
+   background: #A7D8FF;
+   padding: 30px 45px; 
+}
+.text-blue-upload{
+    width: 100%;
+    text-align: center;
+    font-size: 22pt;
+    font-weight: 500;
+    margin: 10px 0;
+    
+}
+.p-blue-upload{
+    margin-left: 30px;
+    font-family: 'Roboto';
+    font-size: 16pt;
+}
+#file-upload-button{
+    width: 160px;
+    height: 50px;
+    background: $amarillo;
+}
+.text-calendario{
+    margin-right: 120px;
+}
+.remember-container{
+    height: 250px;
+    border: 2px solid #017DC3;
+    margin: 27px 0;
+    padding: 20px 40px;
+}
+.btn-upload-files{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16pt;
+    text-align: center;
+    border: none;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    margin: 15px 40% 0;
+    padding: 8px;
+    z-index: 11;
+}
+.send-btn{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16pt;
+    color: white;
+    width: 305px;
+    height:50px;
+    margin: 0 auto;
+    background: #017DC3;
+    border: none;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+.cancel-btn{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16pt;
+    color: $azul;
+    width: 305px;
+    height:50px;
+    margin: 27px auto 27px;
+    border:  2px solid $azul;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+.div-btn-comprando{
+    margin: 0% 30%;
+}
+[type~="file"]{
+    width: 160px;
+    position: relative;
+    z-index: 100;
+    margin-block-end: 50px;
+}
+.link{
+    width: 100px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16pt;
+    text-align: center;
+    border: none;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    background: #FDBB2F;
+}
+.recuerda{
+    color: #017DC3;
+    font-weight: 500;
+    text-align: center;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px;
+    border-radius: 50%;
+    background: rgb(218, 215, 215);
+}
+.flexi{
+    display: flex;
+    flex-direction: row;
+}
+.blue-circle{
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px;
+    border-radius: 50%;
+    background: #4896f0;
+}
+.txt-mrg{
+    margin: 10px 0 0 0;
+}

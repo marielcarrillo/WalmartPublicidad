@@ -1,0 +1,76 @@
+$azul: #017DC3;
+$amarillo: #FDBB2F;
+.tipos-container{
+    margin: 3rem auto 8rem auto;
+    img{
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+}
+.yellow-btn{
+    width: 290px;
+    height: 50px;
+    border: none;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    background-color: $amarillo;
+    z-index: 100;
+}
+#superbanner-btn{
+    position: absolute;
+    top: 35%;
+    left: 73%;
+    transform: translate(-43%);
+}
+#banner-btn{
+    position: absolute;
+    top: 70%;
+    left: 73%;
+    transform: translate(-43%);
+}
+.ant-layout-header{
+    background: $azul;
+}
+.ant-menu{
+    height: 64px;
+    background: $azul;
+    border: none;
+}
+.ant-menu-item{
+    color: white;
+}
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected{
+    color: $amarillo;
+}
+.ant-row{
+    background: white;
+}
+.pasos-container{
+    width: 1012px;
+    margin: 2rem 0;
+}
+.h1-welcome{
+    width: 100%;
+    text-align: center;
+    font-size: 32pt;
+    font-weight: 900;
+    color: $azul;
+}
+.text{
+    width: 100%;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: 300;
+}
+#pasos-text{
+    margin: 1rem 0 2.5rem 6rem;
+}
+#small-logo{
+    position: relative;
+    left: 365%;
+}
+#home-title{
+    margin: 1rem 0 2rem 11rem;
+}
+.btn-modal-div{
+    margin: 30px 39% 20px;
+}
